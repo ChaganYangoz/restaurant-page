@@ -1,1 +1,1 @@
-alert("Berke");
+(()=>{const e=document.querySelector("#content"),t=document.createElement("div"),n=document.createElement("div"),d=document.createElement("div"),c=document.createElement("div");n.setAttribute("id","home"),d.setAttribute("id","menu"),c.setAttribute("id","contact"),t.classList.add("header"),n.textContent="Home",d.textContent="Menu",c.textContent="Contact";const i=document.createElement("img");i.setAttribute("id","header"),i.setAttribute("src","../src/header2.jpg"),e.appendChild(i),t.appendChild(n),t.appendChild(d),t.appendChild(c),e.appendChild(t)})();
