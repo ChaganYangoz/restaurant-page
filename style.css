@@ -1,9 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-color: #213555;
+    font-family: 'FProjectRegular';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
 }
 
 body{
+    overflow: hidden;
     width: 100%;
     height: 100%;
 }
@@ -11,10 +18,68 @@ body{
 #header{
     width: 100vmax;
     height: auto;
+
 }
 
 .header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.header>div{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.context{
+    padding: 20px;
+    height: 380px;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    background-color: #4F709C;
+    padding-bottom: 100v;
+}
+
+.menu{
+    width: 300px;
+    height: 300px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #4F709C;
+
+}
+
+.group>div{
+    background-color: #4F709C;
+
+}
+
+.context>div{
+    background-color: #4F709C;
+
+}
+
+.off{
+    background-color: #4F709C;
+}
+
+.on , .off{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
