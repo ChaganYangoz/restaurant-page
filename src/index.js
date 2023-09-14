@@ -22,7 +22,7 @@ contact.textContent="Contact";
 
 const headerImg = document.createElement("img");
 headerImg.setAttribute('id', 'header');
-headerImg.setAttribute('src', '../src/header2.jpg');
+headerImg.setAttribute('src', 'header2.jpg');
 
 contact.classList.add("on");
 menu.classList.add("on");

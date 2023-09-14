@@ -29,17 +29,17 @@ export default function MenuPage() {
 
     const steakImg = document.createElement("img");
     steakImg.setAttribute('class', 'menu');
-    steakImg.setAttribute('src', '../src/steak.jpeg');
+    steakImg.setAttribute('src', 'steak.jpeg');
     steakInfo.textContent="Steak : 15.00$";
 
     const lobster = document.createElement("img");
     lobster.setAttribute('class', 'menu')
-    lobster.setAttribute('src', '../src/lobster.jpg');
+    lobster.setAttribute('src', 'lobster.jpg');
     lobsterInfo.textContent="Lobster : 30.00$";
 
     const salmon = document.createElement("img");
     salmon.setAttribute('class', 'menu');
-    salmon.setAttribute('src', '../src/salmon.jpg');
+    salmon.setAttribute('src', 'salmon.jpg');
     salmonInfo.textContent="Salmon : 10.00$";
 
     steakGroup.appendChild(steakImg);
