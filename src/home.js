@@ -1,4 +1,16 @@
 export default function HomePage(){
+    const contact=document.querySelector('#contact');
+    const home=document.querySelector('#home');
+    const menu=document.querySelector('#menu');
+
+    contact.classList.remove("off");
+    contact.classList.add("on");
+    menu.classList.remove("off");
+    menu.classList.add("on");
+    home.classList.remove("on");
+    home.classList.add("off");
+
+
     const content=document.querySelector('#content');
     const context=document.querySelector(".context");
     context.innerHTML="";
